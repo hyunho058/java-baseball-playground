@@ -1,6 +1,6 @@
 package study;
 
-import baseball.BaseBallGame;
+import baseball.v1.BaseBallGame;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StringTest {
+public class BaseBallGameTest {
     @Test
     @DisplayName("세자리_번호_생성")
     void 세자리_번호_생성() {
